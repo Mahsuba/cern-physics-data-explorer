@@ -90,7 +90,7 @@ Each row corresponds to one dimuon event, with columns including:
 
 ## Technologies
 
-- Python 3  
+- Python  
 - [NumPy](https://numpy.org/)  
 - [pandas](https://pandas.pydata.org/)  
 - [Matplotlib](https://matplotlib.org/)  

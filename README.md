@@ -7,9 +7,9 @@ from the **CMS experiment** at CERN, using the public dimuon dataset
 The goal of this project is to demonstrate basic high-energy physics data analysis
 using the standard Python scientific stack:
 
-- **NumPy** for numerical work
-- **pandas** for data handling
-- **Matplotlib** and **Seaborn** for visualisation
+- **NumPy** for numerical work  
+- **pandas** for data handling  
+- **Matplotlib** and **Seaborn** for visualisation  
 
 ---
 
@@ -37,7 +37,7 @@ The notebook is written as a step-by-step mini analysis and includes:
      - Dimuon invariant mass: `M`
    - Cross-check results using both **pandas** and **NumPy**.
 
-4. **Visualisation**
+4. **Visualisation**  
    Using **Matplotlib** and **Seaborn**:
 
    - **Histograms**
@@ -84,17 +84,17 @@ Each row corresponds to one dimuon event, with columns including:
 - `px1`, `py1`, `pz1`, `pt1`, `eta1`, `phi1` – kinematics of muon 1  
 - `px2`, `py2`, `pz2`, `pt2`, `eta2`, `phi2` – kinematics of muon 2  
 - `M` – dimuon invariant mass (GeV)  
-- additional event and detector information
+- Additional event and detector information  
 
 ---
 
 ## Technologies
 
-- Python 3
-- [NumPy](https://numpy.org/)
-- [pandas](https://pandas.pydata.org/)
-- [Matplotlib](https://matplotlib.org/)
-- [Seaborn](https://seaborn.pydata.org/)
+- Python 3  
+- [NumPy](https://numpy.org/)  
+- [pandas](https://pandas.pydata.org/)  
+- [Matplotlib](https://matplotlib.org/)  
+- [Seaborn](https://seaborn.pydata.org/)  
 
 ---
 
@@ -103,44 +103,42 @@ Each row corresponds to one dimuon event, with columns including:
 1. **Clone this repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/cern-physics-data-explorer.git
+   git clone https://github.com/Mahsuba/cern-physics-data-explorer.git
    cd cern-physics-data-explorer
+Install dependencies
+
+It is recommended to use a virtual environment, but for a simple test:
+
+bash
+
+`pip install numpy pandas matplotlib seaborn`
 
 
 
-2. Install dependencies
-
-  It is recommended to use a virtual environment, but for a simple test:
-
-    ```bash
-         pip install numpy pandas matplotlib seaborn
-
-
-
-3.Open the notebook
+Open the notebook
 
 You can run the notebook in:
 
-Jupyter Notebook / JupyterLab, or
+Jupyter Notebook / JupyterLab
 
-VS Code with the Python & Jupyter extensions, or
+VS Code with the Python & Jupyter extensions
 
-Google Colab by uploading the .ipynb file.
+Google Colab by uploading the .ipynb file
 
+Then run the cells from top to bottom to reproduce all results and plots.
 
 ## Notes
-
 This project is intentionally kept at an introductory level.
 It is not a full physics analysis, but it demonstrates:
 
-Working with real CERN Open Data,
+Working with real CERN Open Data
 
-Using the Python scientific ecosystem for exploratory data analysis,
+Using the Python scientific ecosystem for exploratory data analysis
 
-Producing clear visualisations,
+Producing clear visualisations
 
-And connecting plots to basic physical interpretation.
+Connecting plots to basic physical interpretation
 
 It can be extended with more advanced techniques, such as fitting the dimuon
-mass peak to extract the Z boson mass, estimating backgrounds, or incorporating
-additional CMS Open Data samples.
+mass peak to extract the Z boson mass and width, estimating backgrounds, or
+incorporating additional CMS Open Data samples.
